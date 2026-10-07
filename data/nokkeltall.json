@@ -1,5 +1,6 @@
 {
-  "_veiledning": "Rett tallene her for hånd. Kilde angis med dokument-ID fra manifest.json og PDF-side (fysisk side i PDF-en, som brukes i lenken #page=N). Lenken fylles inn automatisk ved bygging. 'endring' brukes BARE når kilden selv oppgir endringen; 'sammenligning' viser fjorårstallet fra samme kilde uten pil. Sett verdi til null hvis tallet ikke finnes.",
+  "_veiledning": "Rett tallene her for hånd. Kilde angis med dokument-ID fra manifest.json og PDF-side (fysisk side i PDF-en, som brukes i lenken #page=N). Lenken fylles inn automatisk ved bygging. 'endring' brukes BARE når kilden selv oppgir endringen; 'sammenligning' viser fjorårstallet fra samme kilde uten pil. Sett verdi til null hvis tallet ikke finnes. 'aar' må være lik year i config.json; ellers vises alle tall som «ikke funnet» (hindrer at fjorårets tall vises etter årsbytte).",
+  "aar": 2026,
   "kontrollert": "2026-10-07, mot PDF-tekst for statsbudsjettet 2026",
   "tall": [
     {
@@ -10,7 +11,11 @@
       "forklaring": "Strukturelt oljekorrigert underskudd i 2026",
       "endring": null,
       "sammenligning": "Anslag 2025: 534,2 mrd. kr",
-      "kilde": {"doc": "nb", "pdfside": 40, "tabell": "Tabell 3.1"},
+      "kilde": {
+        "doc": "nb",
+        "pdfside": 40,
+        "tabell": "Tabell 3.1"
+      },
       "sitat": "Strukturelt oljekorrigert budsjettunderskudd i løpende priser 410,3 534,2 579,4"
     },
     {
@@ -21,7 +26,11 @@
       "forklaring": "Underskuddet målt i prosent av Statens pensjonsfond utland",
       "endring": null,
       "sammenligning": "Anslag 2025: 2,7 %",
-      "kilde": {"doc": "nb", "pdfside": 40, "tabell": "Tabell 3.1"},
+      "kilde": {
+        "doc": "nb",
+        "pdfside": 40,
+        "tabell": "Tabell 3.1"
+      },
       "sitat": "Målt i pst. av Statens pensjonsfond utland 2,6 2,7 2,8"
     },
     {
@@ -30,9 +39,18 @@
       "verdi": "13,1",
       "enhet": "%",
       "forklaring": "Underskuddet som andel av trend-BNP for Fastlands-Norge",
-      "endring": {"verdi": "+0,4", "enhet": "prosentpoeng", "retning": "opp", "tekst": "fra 2025 (budsjettindikatoren)"},
+      "endring": {
+        "verdi": "+0,4",
+        "enhet": "prosentpoeng",
+        "retning": "opp",
+        "tekst": "fra 2025 (budsjettindikatoren)"
+      },
       "sammenligning": null,
-      "kilde": {"doc": "nb", "pdfside": 40, "tabell": "Tabell 3.1"},
+      "kilde": {
+        "doc": "nb",
+        "pdfside": 40,
+        "tabell": "Tabell 3.1"
+      },
       "sitat": "Målt i pst. av trend-BNP for Fastlands-Norge 10,2 12,6 13,1 / Endring fra året før i prosentpoeng (budsjettindikator) 0,9 2,4 0,4"
     },
     {
@@ -41,9 +59,18 @@
       "verdi": "2 200,6",
       "enhet": "mrd. kr",
       "forklaring": "Statsbudsjettets utgifter i alt, utenom lånetransaksjoner",
-      "endring": {"verdi": "+7,2", "enhet": "%", "retning": "opp", "tekst": "fra saldert budsjett 2025"},
+      "endring": {
+        "verdi": "+7,2",
+        "enhet": "%",
+        "retning": "opp",
+        "tekst": "fra saldert budsjett 2025"
+      },
       "sammenligning": null,
-      "kilde": {"doc": "gulbok", "pdfside": 15, "tabell": "Tabell 2.1"},
+      "kilde": {
+        "doc": "gulbok",
+        "pdfside": 15,
+        "tabell": "Tabell 2.1"
+      },
       "sitat": "B Statsbudsjettets utgifter i alt 2 052,8 2 200,6 7,2"
     },
     {
@@ -54,7 +81,11 @@
       "forklaring": "Underliggende, reell vekst i statsbudsjettets utgifter",
       "endring": null,
       "sammenligning": "Anslag 2025: 5,2 %",
-      "kilde": {"doc": "nb", "pdfside": 188, "tabell": "Tabell 3.18"},
+      "kilde": {
+        "doc": "nb",
+        "pdfside": 188,
+        "tabell": "Tabell 3.18"
+      },
       "sitat": "Reell, underliggende utgiftsvekst, pst. 3,1 5,2 1,0"
     },
     {
@@ -65,7 +96,11 @@
       "forklaring": "Anslag for BNP Fastlands-Norge i 2026, volumvekst",
       "endring": null,
       "sammenligning": "Anslag 2025: 2,0 %",
-      "kilde": {"doc": "nb", "pdfside": 27, "tabell": "Tabell 2.3"},
+      "kilde": {
+        "doc": "nb",
+        "pdfside": 27,
+        "tabell": "Tabell 2.3"
+      },
       "sitat": "Herav: Fastlands-Norge 4 050 0,6 2,0 2,1 1,8"
     },
     {
@@ -76,7 +111,11 @@
       "forklaring": "Registrert ledighet (Nav) i 2026, andel av arbeidsstyrken",
       "endring": null,
       "sammenligning": "Anslag 2025: 2,1 %",
-      "kilde": {"doc": "nb", "pdfside": 27, "tabell": "Tabell 2.3"},
+      "kilde": {
+        "doc": "nb",
+        "pdfside": 27,
+        "tabell": "Tabell 2.3"
+      },
       "sitat": "Arbeidsledighetsrate, registrert (nivå) 2,0 2,1 2,1 2,1"
     },
     {
@@ -87,7 +126,11 @@
       "forklaring": "Anslag for vekst i konsumprisindeksen i 2026",
       "endring": null,
       "sammenligning": "Anslag 2025: 2,8 %",
-      "kilde": {"doc": "nb", "pdfside": 27, "tabell": "Tabell 2.3"},
+      "kilde": {
+        "doc": "nb",
+        "pdfside": 27,
+        "tabell": "Tabell 2.3"
+      },
       "sitat": "KPI 3,1 2,8 2,2 2,2"
     },
     {
@@ -98,7 +141,11 @@
       "forklaring": "Anslått kapital i Statens pensjonsfond utland ved inngangen til 2026",
       "endring": null,
       "sammenligning": null,
-      "kilde": {"doc": "gulbok", "pdfside": 14, "tabell": "Avsnitt 2.1"},
+      "kilde": {
+        "doc": "gulbok",
+        "pdfside": 14,
+        "tabell": "Avsnitt 2.1"
+      },
       "sitat": "Av dette utgjør Statens pensjonsfond utland 20 500 mrd. kroner"
     },
     {

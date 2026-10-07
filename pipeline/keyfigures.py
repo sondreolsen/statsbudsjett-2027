@@ -50,6 +50,10 @@ def check():
     """Rapporter tall som mangler kilde eller er «ikke funnet»."""
     data = read_json(DATA / "nokkeltall.json", {"tall": []})
     docs = {d["id"]: d for d in read_json(DATA / "manifest.json", {"documents": []})["documents"]}
+    from common import YEAR
+    if data.get("aar") != YEAR:
+        return [f"data/nokkeltall.json gjelder {data.get('aar')}, ikke {YEAR}. Alle nøkkeltall vises som «ikke funnet» "
+                "til de er kontrollert og lagt inn for riktig år."]
     missing = []
     for t in data["tall"]:
         k = t.get("kilde") or {}

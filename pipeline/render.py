@@ -43,6 +43,12 @@ def resolve_figures(manifest):
     """Fyll inn lenke, trykt sidetall og dokumentnavn fra manifestet."""
     data = read_json(DATA / "nokkeltall.json", {"tall": []})
     docs = {d["id"]: d for d in manifest["documents"]}
+    if data.get("aar") != manifest["year"]:
+        # Fjorårets tall skal aldri vises med lenker til årets dokumenter
+        for t in data["tall"]:
+            t.update(verdi=None, endring=None, sammenligning=None, kilde=None,
+                     forklaring=f"Ikke kontrollert for {manifest['year']} ennå")
+        return data
     for t in data["tall"]:
         k = t.get("kilde")
         if t.get("verdi") and k and k.get("doc") in docs:
