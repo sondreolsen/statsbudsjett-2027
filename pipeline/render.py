@@ -127,7 +127,9 @@ def render_site(manifest, docs, chapters, with_fylker):
         "year": manifest["year"], "fremlagt": manifest["fremlagt"], "built": manifest["crawled"],
         "source_url": manifest["source_url"],
         "documents": [{k: d[k] for k in ("id", "title", "type_label", "department", "pdf_url", "pages")} for d in docs],
-        "fylkessaker": [{k: f[k] for k in ("fylke", "title", "url", "headings")} for f in fylkessaker],
+        "fylkessaker": [{"fylke": f["fylke"], "title": f["title"], "url": f["url"],
+                         "headings": [h for h in dict.fromkeys(f["headings"]) if not h.rstrip().endswith(":")]}
+                        for f in fylkessaker],
         "fylker": sorted({f["fylke"] for f in fylkessaker}, key=fylke_sort),
         "departments": sorted({d["department"] for d in docs}, key=fylke_sort),
         "types": types,

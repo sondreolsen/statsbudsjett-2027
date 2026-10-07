@@ -1,6 +1,6 @@
 # Mangler: statsbudsjettet 2026
 
-Generert 2026-10-07T08:55:41+0200. Dette er ting pipelinen forventet å finne, men ikke fant. Ingen hull er fylt med antatte verdier.
+Generert 2026-10-07T09:14:04+0200. Dette er ting pipelinen forventet å finne, men ikke fant. Ingen hull er fylt med antatte verdier.
 
 ## Prop. 1 S
 - Fant ingen Prop. 1 S for Barne- og familiedepartementet via samlesiden eller dokumentlisten.

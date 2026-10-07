@@ -1,12 +1,12 @@
 """Steg 4: Bygg statisk Pagefind-indeks (én post per PDF-side) og sett sammen
 nettstedet i dist/."""
-import asyncio
+import html
 import json
 import shutil
+import subprocess
+import sys
 
-from pagefind.index import IndexConfig, PagefindIndex
-
-from common import DATA, DIST, HTML_DIR, PAGES_DIR, SITE, read_json, url_key
+from common import CACHE, DATA, DIST, HTML_DIR, PAGES_DIR, SITE, read_json, rmtree, url_key
 from render import render_site
 
 LANG = "no"  # Pagefind/Snowball norsk stemming
@@ -73,32 +73,40 @@ def fylke_records(manifest):
         }
 
 
-async def build_index(records, out):
-    cfg = IndexConfig(output_path=str(out / "pagefind"), force_language=LANG)
-    n = 0
-    async with PagefindIndex(config=cfg) as index:
-        batch = 100
-        for i in range(0, len(records), batch):
-            await asyncio.gather(*(index.add_custom_record(url=r["url"], content=r["content"], language=LANG,
-                                                           meta=r["meta"], filters=r["filters"])
-                                   for r in records[i:i + batch]))
-            n += len(records[i:i + batch])
-        await index.write_files(output_path=str(out / "pagefind"))
-    return n
+def record_html(r):
+    """Én liten HTML-fil per post. Metadata og filtre ligger i attributter, slik at de
+    ikke blir en del av den søkbare teksten."""
+    e = lambda v: html.escape(str(v), quote=True)
+    metas = "".join(f'<span data-pagefind-meta="{k}[data-v]" data-v="{e(v)}"></span>' for k, v in r["meta"].items())
+    filters = "".join(f'<span data-pagefind-filter="{k}[data-v]" data-v="{e(v)}"></span>'
+                      for k, vals in r["filters"].items() for v in vals)
+    paras = "<p>" + e(" ".join(line.strip() for line in r["content"].splitlines() if line.strip())) + "</p>"
+    return (f'<!doctype html><html lang="{LANG}"><head><meta charset="utf-8"><title>{e(r["meta"]["title"])}</title>'
+            f'</head><body><main data-pagefind-body>{metas}{filters}{paras}</main></body></html>')
+
+
+def build_index(records, out):
+    src = CACHE / "index_src"
+    rmtree(src)
+    src.mkdir(parents=True)
+    for i, r in enumerate(records):
+        (src / f"r{i:05d}.html").write_text(record_html(r), encoding="utf-8")
+    subprocess.run([sys.executable, "-m", "pagefind", "--site", str(src), "--output-path", str(out / "pagefind"),
+                    "--force-language", LANG, "--quiet"], check=True)
+    return len(records)
 
 
 def build(only=None):
     manifest = read_json(DATA / "manifest.json")
     chapters = read_json(DATA / "kapitler.json", {})
     page_fylker = read_json(PAGES_DIR / "fylker.json", {})
-    if DIST.exists():
-        shutil.rmtree(DIST)
+    rmtree(DIST)
     shutil.copytree(SITE, DIST)
 
     records = list(page_records(manifest, chapters, page_fylker, only))
     if not only or "fylke" in only:
         records += list(fylke_records(manifest))
-    n = asyncio.run(build_index(records, DIST))
+    n = build_index(records, DIST)
 
     docs = [d for d in manifest["documents"] if not only or d["type"] in only]
     render_site(manifest, docs, chapters, with_fylker=not only or "fylke" in only)

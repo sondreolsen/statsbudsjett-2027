@@ -1,0 +1,1384 @@
+{
+  "antall_navn": 459,
+  "navn": {
+    "Oslo": [
+      "Oslo"
+    ],
+    "Oslove": [
+      "Oslo"
+    ],
+    "Stavanger": [
+      "Rogaland"
+    ],
+    "Haugesund": [
+      "Rogaland"
+    ],
+    "Sandnes": [
+      "Rogaland"
+    ],
+    "Karmøy": [
+      "Rogaland"
+    ],
+    "Kristiansund": [
+      "Møre og Romsdal"
+    ],
+    "Molde": [
+      "Møre og Romsdal"
+    ],
+    "Ålesund": [
+      "Møre og Romsdal"
+    ],
+    "Vanylven": [
+      "Møre og Romsdal"
+    ],
+    "Herøy (Møre og Romsdal)": [
+      "Møre og Romsdal"
+    ],
+    "Ulstein": [
+      "Møre og Romsdal"
+    ],
+    "Ørsta": [
+      "Møre og Romsdal"
+    ],
+    "Sykkylven": [
+      "Møre og Romsdal"
+    ],
+    "Vestnes": [
+      "Møre og Romsdal"
+    ],
+    "Averøy": [
+      "Møre og Romsdal"
+    ],
+    "Gjemnes": [
+      "Møre og Romsdal"
+    ],
+    "Tingvoll": [
+      "Møre og Romsdal"
+    ],
+    "Sunndal": [
+      "Møre og Romsdal"
+    ],
+    "Surnadal": [
+      "Møre og Romsdal"
+    ],
+    "Volda": [
+      "Møre og Romsdal"
+    ],
+    "Hustadvika": [
+      "Møre og Romsdal"
+    ],
+    "Haram": [
+      "Møre og Romsdal"
+    ],
+    "Bodø": [
+      "Nordland"
+    ],
+    "Narvik": [
+      "Nordland"
+    ],
+    "Sømna": [
+      "Nordland"
+    ],
+    "Brønnøy": [
+      "Nordland"
+    ],
+    "Herøy (Nordland)": [
+      "Nordland"
+    ],
+    "Alstahaug": [
+      "Nordland"
+    ],
+    "Vefsn": [
+      "Nordland"
+    ],
+    "Aarborte": [
+      "Nordland"
+    ],
+    "Hattfjelldal": [
+      "Nordland"
+    ],
+    "Hemnes": [
+      "Nordland"
+    ],
+    "Rana": [
+      "Nordland"
+    ],
+    "Raane": [
+      "Nordland"
+    ],
+    "Lurøy": [
+      "Nordland"
+    ],
+    "Meløy": [
+      "Nordland"
+    ],
+    "Gildeskål": [
+      "Nordland"
+    ],
+    "Fauske": [
+      "Nordland"
+    ],
+    "Fuossko": [
+      "Nordland"
+    ],
+    "Fuolldá": [
+      "Nordland"
+    ],
+    "Evenášši": [
+      "Nordland"
+    ],
+    "Vestvågøy": [
+      "Nordland"
+    ],
+    "Vågan": [
+      "Nordland"
+    ],
+    "Hadsel": [
+      "Nordland"
+    ],
+    "Øksnes": [
+      "Nordland"
+    ],
+    "Sortland": [
+      "Nordland"
+    ],
+    "Suortá": [
+      "Nordland"
+    ],
+    "Hábmer": [
+      "Nordland"
+    ],
+    "Halden": [
+      "Østfold"
+    ],
+    "Sarpsborg": [
+      "Østfold"
+    ],
+    "Fredrikstad": [
+      "Østfold"
+    ],
+    "Våler (Østfold)": [
+      "Østfold"
+    ],
+    "Indre Østfold": [
+      "Østfold"
+    ],
+    "Bærum": [
+      "Akershus"
+    ],
+    "Asker": [
+      "Akershus"
+    ],
+    "Lillestrøm": [
+      "Akershus"
+    ],
+    "Nordre Follo": [
+      "Akershus"
+    ],
+    "Ullensaker": [
+      "Akershus"
+    ],
+    "Lørenskog": [
+      "Akershus"
+    ],
+    "Rælingen": [
+      "Akershus"
+    ],
+    "Aurskog-Høland": [
+      "Akershus"
+    ],
+    "Nittedal": [
+      "Akershus"
+    ],
+    "Lunner": [
+      "Akershus"
+    ],
+    "Jevnaker": [
+      "Akershus"
+    ],
+    "Nannestad": [
+      "Akershus"
+    ],
+    "Eidsvoll": [
+      "Akershus"
+    ],
+    "Drammen": [
+      "Buskerud"
+    ],
+    "Kongsberg": [
+      "Buskerud"
+    ],
+    "Ringerike": [
+      "Buskerud"
+    ],
+    "Øvre Eiker": [
+      "Buskerud"
+    ],
+    "Krødsherad": [
+      "Buskerud"
+    ],
+    "Nesbyen": [
+      "Buskerud"
+    ],
+    "Nore og Uvdal": [
+      "Buskerud"
+    ],
+    "Kongsvinger": [
+      "Innlandet"
+    ],
+    "Hamar": [
+      "Innlandet"
+    ],
+    "Lillehammer": [
+      "Innlandet"
+    ],
+    "Gjøvik": [
+      "Innlandet"
+    ],
+    "Ringsaker": [
+      "Innlandet"
+    ],
+    "Nord-Odal": [
+      "Innlandet"
+    ],
+    "Sør-Odal": [
+      "Innlandet"
+    ],
+    "Våler (Innlandet)": [
+      "Innlandet"
+    ],
+    "Elverum": [
+      "Innlandet"
+    ],
+    "Stor-Elvdal": [
+      "Innlandet"
+    ],
+    "Tynset": [
+      "Innlandet"
+    ],
+    "Nord-Fron": [
+      "Innlandet"
+    ],
+    "Sør-Fron": [
+      "Innlandet"
+    ],
+    "Ringebu": [
+      "Innlandet"
+    ],
+    "Øyer": [
+      "Innlandet"
+    ],
+    "Gausdal": [
+      "Innlandet"
+    ],
+    "Østre Toten": [
+      "Innlandet"
+    ],
+    "Vestre Toten": [
+      "Innlandet"
+    ],
+    "Søndre Land": [
+      "Innlandet"
+    ],
+    "Nordre Land": [
+      "Innlandet"
+    ],
+    "Sør-Aurdal": [
+      "Innlandet"
+    ],
+    "Nord-Aurdal": [
+      "Innlandet"
+    ],
+    "Vestre Slidre": [
+      "Innlandet"
+    ],
+    "Øystre Slidre": [
+      "Innlandet"
+    ],
+    "Horten": [
+      "Vestfold"
+    ],
+    "Holmestrand": [
+      "Vestfold"
+    ],
+    "Tønsberg": [
+      "Vestfold"
+    ],
+    "Sandefjord": [
+      "Vestfold"
+    ],
+    "Larvik": [
+      "Vestfold"
+    ],
+    "Færder": [
+      "Vestfold"
+    ],
+    "Porsgrunn": [
+      "Telemark"
+    ],
+    "Skien": [
+      "Telemark"
+    ],
+    "Notodden": [
+      "Telemark"
+    ],
+    "Kragerø": [
+      "Telemark"
+    ],
+    "Midt-Telemark": [
+      "Telemark"
+    ],
+    "Risør": [
+      "Agder"
+    ],
+    "Grimstad": [
+      "Agder"
+    ],
+    "Arendal": [
+      "Agder"
+    ],
+    "Kristiansand": [
+      "Agder"
+    ],
+    "Lindesnes": [
+      "Agder"
+    ],
+    "Farsund": [
+      "Agder"
+    ],
+    "Flekkefjord": [
+      "Agder"
+    ],
+    "Gjerstad": [
+      "Agder"
+    ],
+    "Vegårshei": [
+      "Agder"
+    ],
+    "Tvedestrand": [
+      "Agder"
+    ],
+    "Lillesand": [
+      "Agder"
+    ],
+    "Evje og Hornnes": [
+      "Agder"
+    ],
+    "Vennesla": [
+      "Agder"
+    ],
+    "Lyngdal": [
+      "Agder"
+    ],
+    "Kvinesdal": [
+      "Agder"
+    ],
+    "Bergen": [
+      "Vestland"
+    ],
+    "Bømlo": [
+      "Vestland"
+    ],
+    "Stord": [
+      "Vestland"
+    ],
+    "Kvinnherad": [
+      "Vestland"
+    ],
+    "Ullensvang": [
+      "Vestland"
+    ],
+    "Eidfjord": [
+      "Vestland"
+    ],
+    "Voss": [
+      "Vestland"
+    ],
+    "Samnanger": [
+      "Vestland"
+    ],
+    "Bjørnafjorden": [
+      "Vestland"
+    ],
+    "Austevoll": [
+      "Vestland"
+    ],
+    "Øygarden": [
+      "Vestland"
+    ],
+    "Askøy": [
+      "Vestland"
+    ],
+    "Vaksdal": [
+      "Vestland"
+    ],
+    "Osterøy": [
+      "Vestland"
+    ],
+    "Austrheim": [
+      "Vestland"
+    ],
+    "Masfjorden": [
+      "Vestland"
+    ],
+    "Hyllestad": [
+      "Vestland"
+    ],
+    "Høyanger": [
+      "Vestland"
+    ],
+    "Sogndal": [
+      "Vestland"
+    ],
+    "Lærdal": [
+      "Vestland"
+    ],
+    "Sunnfjord": [
+      "Vestland"
+    ],
+    "Bremanger": [
+      "Vestland"
+    ],
+    "Gloppen": [
+      "Vestland"
+    ],
+    "Trondheim": [
+      "Trøndelag"
+    ],
+    "Tråante": [
+      "Trøndelag"
+    ],
+    "Steinkjer": [
+      "Trøndelag"
+    ],
+    "Stïentje": [
+      "Trøndelag"
+    ],
+    "Namsos": [
+      "Trøndelag"
+    ],
+    "Nåavmesjenjaelmie": [
+      "Trøndelag"
+    ],
+    "Oppdal": [
+      "Trøndelag"
+    ],
+    "Rennebu": [
+      "Trøndelag"
+    ],
+    "Røros": [
+      "Trøndelag"
+    ],
+    "Rosse": [
+      "Trøndelag"
+    ],
+    "Midtre Gauldal": [
+      "Trøndelag"
+    ],
+    "Melhus": [
+      "Trøndelag"
+    ],
+    "Skaun": [
+      "Trøndelag"
+    ],
+    "Malvik": [
+      "Trøndelag"
+    ],
+    "Stjørdal": [
+      "Trøndelag"
+    ],
+    "Levanger": [
+      "Trøndelag"
+    ],
+    "Levangke": [
+      "Trøndelag"
+    ],
+    "Verdal": [
+      "Trøndelag"
+    ],
+    "Snåase": [
+      "Trøndelag"
+    ],
+    "Raarvihke": [
+      "Trøndelag"
+    ],
+    "Røyrvik": [
+      "Trøndelag"
+    ],
+    "Namsskogan": [
+      "Trøndelag"
+    ],
+    "Høylandet": [
+      "Trøndelag"
+    ],
+    "Overhalla": [
+      "Trøndelag"
+    ],
+    "Inderøy": [
+      "Trøndelag"
+    ],
+    "Ørland": [
+      "Trøndelag"
+    ],
+    "Åfjord": [
+      "Trøndelag"
+    ],
+    "Orkland": [
+      "Trøndelag"
+    ],
+    "Nærøysund": [
+      "Trøndelag"
+    ],
+    "Tromsø": [
+      "Troms"
+    ],
+    "Harstad": [
+      "Troms"
+    ],
+    "Hárstták": [
+      "Troms"
+    ],
+    "Kvæfjord": [
+      "Troms"
+    ],
+    "Dielddanuorri": [
+      "Troms"
+    ],
+    "Tjeldsund": [
+      "Troms"
+    ],
+    "Gratangen": [
+      "Troms"
+    ],
+    "Rivtták": [
+      "Troms"
+    ],
+    "Loabák": [
+      "Troms"
+    ],
+    "Lavangen": [
+      "Troms"
+    ],
+    "Målselv": [
+      "Troms"
+    ],
+    "Sørreisa": [
+      "Troms"
+    ],
+    "Balsfjord": [
+      "Troms"
+    ],
+    "Ivgu": [
+      "Troms"
+    ],
+    "Yykeä": [
+      "Troms"
+    ],
+    "Omasvuotna": [
+      "Troms"
+    ],
+    "Omasvuono": [
+      "Troms"
+    ],
+    "Gáivuotna": [
+      "Troms"
+    ],
+    "Kaivuono": [
+      "Troms"
+    ],
+    "Skjervøy": [
+      "Troms"
+    ],
+    "Nordreisa": [
+      "Troms"
+    ],
+    "Ráisa": [
+      "Troms"
+    ],
+    "Raisi": [
+      "Troms"
+    ],
+    "Kvænangen": [
+      "Troms"
+    ],
+    "Hammerfest": [
+      "Finnmark"
+    ],
+    "Hámmerfeasta": [
+      "Finnmark"
+    ],
+    "Sør-Varanger": [
+      "Finnmark"
+    ],
+    "Vadsø": [
+      "Finnmark"
+    ],
+    "Kárášjohka": [
+      "Finnmark"
+    ],
+    "Karasjok": [
+      "Finnmark"
+    ],
+    "Guovdageaidnu": [
+      "Finnmark"
+    ],
+    "Kautokeino": [
+      "Finnmark"
+    ],
+    "Nordkapp": [
+      "Finnmark"
+    ],
+    "Porsanger": [
+      "Finnmark"
+    ],
+    "Porsángu": [
+      "Finnmark"
+    ],
+    "Porsanki": [
+      "Finnmark"
+    ],
+    "Deatnu": [
+      "Finnmark"
+    ],
+    "Berlevåg": [
+      "Finnmark"
+    ],
+    "Båtsfjord": [
+      "Finnmark"
+    ],
+    "Vardø": [
+      "Finnmark"
+    ],
+    "Unjárga": [
+      "Finnmark"
+    ],
+    "Uoppgitt": [
+      "Uoppgitt"
+    ],
+    "Rogaland": [
+      "Rogaland"
+    ],
+    "Møre og Romsdal": [
+      "Møre og Romsdal"
+    ],
+    "Nordland": [
+      "Nordland"
+    ],
+    "Østfold": [
+      "Østfold"
+    ],
+    "Akershus": [
+      "Akershus"
+    ],
+    "Buskerud": [
+      "Buskerud"
+    ],
+    "Innlandet": [
+      "Innlandet"
+    ],
+    "Vestfold": [
+      "Vestfold"
+    ],
+    "Telemark": [
+      "Telemark"
+    ],
+    "Agder": [
+      "Agder"
+    ],
+    "Vestland": [
+      "Vestland"
+    ],
+    "Trøndelag": [
+      "Trøndelag"
+    ],
+    "Troms": [
+      "Troms"
+    ],
+    "Finnmark": [
+      "Finnmark"
+    ],
+    "Groruddalen": [
+      "Oslo"
+    ],
+    "Fornebubanen": [
+      "Oslo"
+    ],
+    "Årvoll": [
+      "Oslo"
+    ],
+    "Sinsen": [
+      "Oslo"
+    ],
+    "Bjørvika": [
+      "Oslo"
+    ],
+    "Tøyen": [
+      "Oslo"
+    ],
+    "Gaustad": [
+      "Oslo"
+    ],
+    "Ullevål": [
+      "Oslo"
+    ],
+    "Aker sykehus": [
+      "Oslo"
+    ],
+    "Oslopakke 3": [
+      "Oslo"
+    ],
+    "Romerike": [
+      "Akershus"
+    ],
+    "Follo": [
+      "Akershus"
+    ],
+    "Nedre Romerike": [
+      "Akershus"
+    ],
+    "Øvre Romerike": [
+      "Akershus"
+    ],
+    "Fornebu": [
+      "Akershus"
+    ],
+    "Lysaker": [
+      "Akershus"
+    ],
+    "Ramstadsletta": [
+      "Akershus"
+    ],
+    "Slependen": [
+      "Akershus"
+    ],
+    "Nesbru": [
+      "Akershus"
+    ],
+    "Sandvika": [
+      "Akershus"
+    ],
+    "Brådalsstubben": [
+      "Akershus"
+    ],
+    "Gardermoen": [
+      "Akershus"
+    ],
+    "Oslo lufthavn": [
+      "Akershus"
+    ],
+    "Kjeller": [
+      "Akershus"
+    ],
+    "Kolbotn": [
+      "Akershus"
+    ],
+    "Dagslett": [
+      "Akershus"
+    ],
+    "Vestkorridoren": [
+      "Akershus"
+    ],
+    "Follobanen": [
+      "Akershus"
+    ],
+    "Moss kommune": [
+      "Østfold"
+    ],
+    "Svinesund": [
+      "Østfold"
+    ],
+    "Hafslund": [
+      "Østfold"
+    ],
+    "Dondern": [
+      "Østfold"
+    ],
+    "Nedre Glomma": [
+      "Østfold"
+    ],
+    "Østfoldbanen": [
+      "Østfold"
+    ],
+    "Mysen": [
+      "Østfold"
+    ],
+    "Askim": [
+      "Østfold"
+    ],
+    "Hønefoss": [
+      "Buskerud"
+    ],
+    "Hallingdal": [
+      "Buskerud"
+    ],
+    "Numedal": [
+      "Buskerud"
+    ],
+    "Eggemoen": [
+      "Buskerud"
+    ],
+    "Olum": [
+      "Buskerud"
+    ],
+    "Sokna": [
+      "Buskerud"
+    ],
+    "Ørgenvika": [
+      "Buskerud"
+    ],
+    "Ringeriksbanen": [
+      "Buskerud"
+    ],
+    "Lier kommune": [
+      "Buskerud"
+    ],
+    "Torp": [
+      "Vestfold"
+    ],
+    "Vestfoldbanen": [
+      "Vestfold"
+    ],
+    "Grenland": [
+      "Telemark"
+    ],
+    "Vest-Telemark": [
+      "Telemark"
+    ],
+    "Langangen": [
+      "Telemark"
+    ],
+    "Rugtvedt": [
+      "Telemark"
+    ],
+    "Haukeligrend": [
+      "Telemark"
+    ],
+    "Rjukan": [
+      "Telemark"
+    ],
+    "Tinn kommune": [
+      "Telemark"
+    ],
+    "Aust-Agder": [
+      "Agder"
+    ],
+    "Vest-Agder": [
+      "Agder"
+    ],
+    "Mandal": [
+      "Agder"
+    ],
+    "Setesdal": [
+      "Agder"
+    ],
+    "Gartnerløkka": [
+      "Agder"
+    ],
+    "Kolsdalen": [
+      "Agder"
+    ],
+    "Blørstad": [
+      "Agder"
+    ],
+    "Røyskår": [
+      "Agder"
+    ],
+    "Jæren": [
+      "Rogaland"
+    ],
+    "Ryfylke": [
+      "Rogaland"
+    ],
+    "Haugalandet": [
+      "Rogaland"
+    ],
+    "Dalane": [
+      "Rogaland"
+    ],
+    "Rogfast": [
+      "Rogaland"
+    ],
+    "Ryfast": [
+      "Rogaland"
+    ],
+    "Ålgård": [
+      "Rogaland"
+    ],
+    "Figgjo": [
+      "Rogaland"
+    ],
+    "Smiene": [
+      "Rogaland"
+    ],
+    "Harestad": [
+      "Rogaland"
+    ],
+    "Osli": [
+      "Rogaland"
+    ],
+    "Mortavika": [
+      "Rogaland"
+    ],
+    "Arsvågen": [
+      "Rogaland"
+    ],
+    "Lovraeidet": [
+      "Rogaland"
+    ],
+    "Rødsliane": [
+      "Rogaland"
+    ],
+    "Bussveien": [
+      "Rogaland"
+    ],
+    "Egersund": [
+      "Rogaland"
+    ],
+    "Bryne": [
+      "Rogaland"
+    ],
+    "Sola lufthavn": [
+      "Rogaland"
+    ],
+    "Hå kommune": [
+      "Rogaland"
+    ],
+    "Time kommune": [
+      "Rogaland"
+    ],
+    "Strand kommune": [
+      "Rogaland"
+    ],
+    "Hordaland": [
+      "Vestland"
+    ],
+    "Sogn og Fjordane": [
+      "Vestland"
+    ],
+    "Hordfast": [
+      "Vestland"
+    ],
+    "Sotrasambandet": [
+      "Vestland"
+    ],
+    "Arna–Stanghelle": [
+      "Vestland"
+    ],
+    "Arna-Stanghelle": [
+      "Vestland"
+    ],
+    "Stanghelle": [
+      "Vestland"
+    ],
+    "Vossebanen": [
+      "Vestland"
+    ],
+    "Sunnhordland": [
+      "Vestland"
+    ],
+    "Hardanger": [
+      "Vestland"
+    ],
+    "Sogn": [
+      "Vestland"
+    ],
+    "Nordfjord": [
+      "Vestland"
+    ],
+    "Førde": [
+      "Vestland"
+    ],
+    "Florø": [
+      "Vestland"
+    ],
+    "Lærdalstunnelen": [
+      "Vestland"
+    ],
+    "Lavik": [
+      "Vestland"
+    ],
+    "Oppedal": [
+      "Vestland"
+    ],
+    "Myrmel": [
+      "Vestland"
+    ],
+    "Vågsbotn": [
+      "Vestland"
+    ],
+    "Klauvaneset": [
+      "Vestland"
+    ],
+    "Fløyfjelltunnelen": [
+      "Vestland"
+    ],
+    "Eidsvågtunnelen": [
+      "Vestland"
+    ],
+    "Lotetunnelen": [
+      "Vestland"
+    ],
+    "Damsgård": [
+      "Vestland"
+    ],
+    "Dalevåg": [
+      "Vestland"
+    ],
+    "Hylland": [
+      "Vestland"
+    ],
+    "Slæn": [
+      "Vestland"
+    ],
+    "Røldal": [
+      "Vestland"
+    ],
+    "Seljestad": [
+      "Vestland"
+    ],
+    "Jøsendal": [
+      "Vestland"
+    ],
+    "Mannheller": [
+      "Vestland"
+    ],
+    "Djupevik": [
+      "Vestland"
+    ],
+    "Kviturtunnelen": [
+      "Vestland"
+    ],
+    "Borlaug": [
+      "Vestland"
+    ],
+    "Stad skipstunnel": [
+      "Vestland"
+    ],
+    "Griegakademiet": [
+      "Vestland"
+    ],
+    "Haukeland": [
+      "Vestland"
+    ],
+    "Flesland": [
+      "Vestland"
+    ],
+    "Bybanen": [
+      "Vestland"
+    ],
+    "Sunnmøre": [
+      "Møre og Romsdal"
+    ],
+    "Romsdal": [
+      "Møre og Romsdal"
+    ],
+    "Nordmøre": [
+      "Møre og Romsdal"
+    ],
+    "Lønset": [
+      "Møre og Romsdal"
+    ],
+    "Hjelset": [
+      "Møre og Romsdal"
+    ],
+    "Betna": [
+      "Møre og Romsdal"
+    ],
+    "Breivika–Lerstad": [
+      "Møre og Romsdal"
+    ],
+    "Lerstad": [
+      "Møre og Romsdal"
+    ],
+    "Vikansvingen": [
+      "Møre og Romsdal"
+    ],
+    "Kontrollplassen": [
+      "Møre og Romsdal"
+    ],
+    "Møreaksen": [
+      "Møre og Romsdal"
+    ],
+    "Halsafjorden": [
+      "Møre og Romsdal"
+    ],
+    "Atlanterhavstunnelen": [
+      "Møre og Romsdal"
+    ],
+    "Hedmark": [
+      "Innlandet"
+    ],
+    "Oppland": [
+      "Innlandet"
+    ],
+    "Moelv": [
+      "Innlandet"
+    ],
+    "Gudbrandsdalen": [
+      "Innlandet"
+    ],
+    "Østerdalen": [
+      "Innlandet"
+    ],
+    "Valdres": [
+      "Innlandet"
+    ],
+    "Hadeland": [
+      "Innlandet"
+    ],
+    "Toten": [
+      "Innlandet"
+    ],
+    "Solør": [
+      "Innlandet"
+    ],
+    "Mjøsa": [
+      "Innlandet"
+    ],
+    "Otta": [
+      "Innlandet"
+    ],
+    "Dombås": [
+      "Innlandet"
+    ],
+    "Kolomoen": [
+      "Innlandet"
+    ],
+    "Roterud": [
+      "Innlandet"
+    ],
+    "Storhove": [
+      "Innlandet"
+    ],
+    "Ommangsvollen": [
+      "Innlandet"
+    ],
+    "Dovrebanen": [
+      "Innlandet"
+    ],
+    "Hamar stasjon": [
+      "Innlandet"
+    ],
+    "Sør-Trøndelag": [
+      "Trøndelag"
+    ],
+    "Nord-Trøndelag": [
+      "Trøndelag"
+    ],
+    "Fosen": [
+      "Trøndelag"
+    ],
+    "Namdalen": [
+      "Trøndelag"
+    ],
+    "Innherred": [
+      "Trøndelag"
+    ],
+    "Værnes": [
+      "Trøndelag"
+    ],
+    "Ranheim": [
+      "Trøndelag"
+    ],
+    "Åsen": [
+      "Trøndelag"
+    ],
+    "Kvithammer": [
+      "Trøndelag"
+    ],
+    "Berkåk": [
+      "Trøndelag"
+    ],
+    "Vindåsliene": [
+      "Trøndelag"
+    ],
+    "Ulsberg": [
+      "Trøndelag"
+    ],
+    "Vinjeøra": [
+      "Trøndelag"
+    ],
+    "Stormyra": [
+      "Trøndelag"
+    ],
+    "Klett": [
+      "Trøndelag"
+    ],
+    "Bårdshaug": [
+      "Trøndelag"
+    ],
+    "Kvål": [
+      "Trøndelag"
+    ],
+    "Nydalsbrua": [
+      "Trøndelag"
+    ],
+    "Trønderbanen": [
+      "Trøndelag"
+    ],
+    "Meråkerbanen": [
+      "Trøndelag"
+    ],
+    "Mo i Rana": [
+      "Nordland"
+    ],
+    "Mosjøen": [
+      "Nordland"
+    ],
+    "Sandnessjøen": [
+      "Nordland"
+    ],
+    "Brønnøysund": [
+      "Nordland"
+    ],
+    "Svolvær": [
+      "Nordland"
+    ],
+    "Herøy i Nordland": [
+      "Nordland"
+    ],
+    "Helgeland": [
+      "Nordland"
+    ],
+    "Salten": [
+      "Nordland"
+    ],
+    "Lofoten": [
+      "Nordland"
+    ],
+    "Vesterålen": [
+      "Nordland"
+    ],
+    "Ofoten": [
+      "Nordland"
+    ],
+    "Megården": [
+      "Nordland"
+    ],
+    "Sommerset": [
+      "Nordland"
+    ],
+    "Nappstraumen": [
+      "Nordland"
+    ],
+    "Kjerringstraumen": [
+      "Nordland"
+    ],
+    "Gullesfjordbotn": [
+      "Nordland"
+    ],
+    "Langvassbukt": [
+      "Nordland"
+    ],
+    "Ofotbanen": [
+      "Nordland"
+    ],
+    "Nordlandsbanen": [
+      "Nordland"
+    ],
+    "Lenvik": [
+      "Troms"
+    ],
+    "Finnsnes": [
+      "Troms"
+    ],
+    "Nord-Troms": [
+      "Troms"
+    ],
+    "Midt-Troms": [
+      "Troms"
+    ],
+    "Sørbotn": [
+      "Troms"
+    ],
+    "Laukslett": [
+      "Troms"
+    ],
+    "Nordkjosbotn": [
+      "Troms"
+    ],
+    "Kvænangsfjellet": [
+      "Troms"
+    ],
+    "Bardufoss": [
+      "Troms"
+    ],
+    "Setermoen": [
+      "Troms"
+    ],
+    "Kirkenes": [
+      "Finnmark"
+    ],
+    "Honningsvåg": [
+      "Finnmark"
+    ],
+    "Varanger": [
+      "Finnmark"
+    ],
+    "Øst-Finnmark": [
+      "Finnmark"
+    ],
+    "Vest-Finnmark": [
+      "Finnmark"
+    ],
+    "Skaidi": [
+      "Finnmark"
+    ],
+    "Mollstrand": [
+      "Finnmark"
+    ],
+    "Grøtnes": [
+      "Finnmark"
+    ],
+    "E45 Kløfta": [
+      "Finnmark"
+    ],
+    "Kløfta i Finnmark": [
+      "Finnmark"
+    ],
+    "Alta kommune": [
+      "Finnmark"
+    ],
+    "Finnmarksfradraget": [
+      "Finnmark"
+    ],
+    "Finnmarkseiendommen": [
+      "Finnmark"
+    ],
+    "Svalbard": [
+      "Svalbard"
+    ],
+    "Longyearbyen": [
+      "Svalbard"
+    ],
+    "Ny-Ålesund": [
+      "Svalbard"
+    ],
+    "Barentsburg": [
+      "Svalbard"
+    ],
+    "Svea": [
+      "Svalbard"
+    ],
+    "Bjørnøya": [
+      "Svalbard"
+    ],
+    "Hopen": [
+      "Svalbard"
+    ],
+    "Svalbardbudsjettet": [
+      "Svalbard"
+    ],
+    "Sysselmesteren": [
+      "Svalbard"
+    ],
+    "Troms og Finnmark": [
+      "Finnmark",
+      "Troms"
+    ],
+    "Vestfold og Telemark": [
+      "Telemark",
+      "Vestfold"
+    ]
+  }
+}

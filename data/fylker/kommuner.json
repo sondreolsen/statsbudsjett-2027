@@ -1,0 +1,1814 @@
+{
+ "kilde": "SSB Klass, klassifikasjon 131 (kommuner) og 104 (fylker), gyldig 2026-01-01",
+ "hentet": "2026-10-07",
+ "fylker": {
+  "03": "Oslo - Oslove",
+  "11": "Rogaland",
+  "15": "Møre og Romsdal",
+  "18": "Nordland - Nordlánnda",
+  "31": "Østfold",
+  "32": "Akershus",
+  "33": "Buskerud",
+  "34": "Innlandet",
+  "39": "Vestfold",
+  "40": "Telemark",
+  "42": "Agder",
+  "46": "Vestland",
+  "50": "Trøndelag - Trööndelage",
+  "55": "Troms - Romsa - Tromssa",
+  "56": "Finnmark - Finnmárku - Finmarkku",
+  "99": "Uoppgitt"
+ },
+ "kommuner": [
+  {
+   "nr": "0301",
+   "navn": "Oslo - Oslove",
+   "fylke": "Oslo - Oslove"
+  },
+  {
+   "nr": "1101",
+   "navn": "Eigersund",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1103",
+   "navn": "Stavanger",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1106",
+   "navn": "Haugesund",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1108",
+   "navn": "Sandnes",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1111",
+   "navn": "Sokndal",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1112",
+   "navn": "Lund",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1114",
+   "navn": "Bjerkreim",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1119",
+   "navn": "Hå",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1120",
+   "navn": "Klepp",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1121",
+   "navn": "Time",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1122",
+   "navn": "Gjesdal",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1124",
+   "navn": "Sola",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1127",
+   "navn": "Randaberg",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1130",
+   "navn": "Strand",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1133",
+   "navn": "Hjelmeland",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1134",
+   "navn": "Suldal",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1135",
+   "navn": "Sauda",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1144",
+   "navn": "Kvitsøy",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1145",
+   "navn": "Bokn",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1146",
+   "navn": "Tysvær",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1149",
+   "navn": "Karmøy",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1151",
+   "navn": "Utsira",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1160",
+   "navn": "Vindafjord",
+   "fylke": "Rogaland"
+  },
+  {
+   "nr": "1505",
+   "navn": "Kristiansund",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1506",
+   "navn": "Molde",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1508",
+   "navn": "Ålesund",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1511",
+   "navn": "Vanylven",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1514",
+   "navn": "Sande",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1515",
+   "navn": "Herøy (Møre og Romsdal)",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1516",
+   "navn": "Ulstein",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1517",
+   "navn": "Hareid",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1520",
+   "navn": "Ørsta",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1525",
+   "navn": "Stranda",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1528",
+   "navn": "Sykkylven",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1531",
+   "navn": "Sula",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1532",
+   "navn": "Giske",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1535",
+   "navn": "Vestnes",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1539",
+   "navn": "Rauma",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1547",
+   "navn": "Aukra",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1554",
+   "navn": "Averøy",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1557",
+   "navn": "Gjemnes",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1560",
+   "navn": "Tingvoll",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1563",
+   "navn": "Sunndal",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1566",
+   "navn": "Surnadal",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1573",
+   "navn": "Smøla",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1576",
+   "navn": "Aure",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1577",
+   "navn": "Volda",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1578",
+   "navn": "Fjord",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1579",
+   "navn": "Hustadvika",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1580",
+   "navn": "Haram",
+   "fylke": "Møre og Romsdal"
+  },
+  {
+   "nr": "1804",
+   "navn": "Bodø",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1806",
+   "navn": "Narvik",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1811",
+   "navn": "Bindal",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1812",
+   "navn": "Sømna",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1813",
+   "navn": "Brønnøy",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1815",
+   "navn": "Vega",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1816",
+   "navn": "Vevelstad",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1818",
+   "navn": "Herøy (Nordland)",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1820",
+   "navn": "Alstahaug",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1822",
+   "navn": "Leirfjord",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1824",
+   "navn": "Vefsn",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1825",
+   "navn": "Grane",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1826",
+   "navn": "Aarborte - Hattfjelldal",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1827",
+   "navn": "Dønna",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1828",
+   "navn": "Nesna",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1832",
+   "navn": "Hemnes",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1833",
+   "navn": "Rana - Raane",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1834",
+   "navn": "Lurøy",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1835",
+   "navn": "Træna",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1836",
+   "navn": "Rødøy",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1837",
+   "navn": "Meløy",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1838",
+   "navn": "Gildeskål",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1839",
+   "navn": "Beiarn",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1840",
+   "navn": "Saltdal",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1841",
+   "navn": "Fauske - Fuossko",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1845",
+   "navn": "Sørfold - Fuolldá",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1848",
+   "navn": "Steigen",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1851",
+   "navn": "Lødingen",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1853",
+   "navn": "Evenes - Evenášši",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1856",
+   "navn": "Røst",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1857",
+   "navn": "Værøy",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1859",
+   "navn": "Flakstad",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1860",
+   "navn": "Vestvågøy",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1865",
+   "navn": "Vågan",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1866",
+   "navn": "Hadsel",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1867",
+   "navn": "Bø",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1868",
+   "navn": "Øksnes",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1870",
+   "navn": "Sortland - Suortá",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1871",
+   "navn": "Andøy",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1874",
+   "navn": "Moskenes",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "1875",
+   "navn": "Hábmer - Hamarøy",
+   "fylke": "Nordland - Nordlánnda"
+  },
+  {
+   "nr": "3101",
+   "navn": "Halden",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3103",
+   "navn": "Moss",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3105",
+   "navn": "Sarpsborg",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3107",
+   "navn": "Fredrikstad",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3110",
+   "navn": "Hvaler",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3112",
+   "navn": "Råde",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3114",
+   "navn": "Våler (Østfold)",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3116",
+   "navn": "Skiptvet",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3118",
+   "navn": "Indre Østfold",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3120",
+   "navn": "Rakkestad",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3122",
+   "navn": "Marker",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3124",
+   "navn": "Aremark",
+   "fylke": "Østfold"
+  },
+  {
+   "nr": "3201",
+   "navn": "Bærum",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3203",
+   "navn": "Asker",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3205",
+   "navn": "Lillestrøm",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3207",
+   "navn": "Nordre Follo",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3209",
+   "navn": "Ullensaker",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3212",
+   "navn": "Nesodden",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3214",
+   "navn": "Frogn",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3216",
+   "navn": "Vestby",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3218",
+   "navn": "Ås",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3220",
+   "navn": "Enebakk",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3222",
+   "navn": "Lørenskog",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3224",
+   "navn": "Rælingen",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3226",
+   "navn": "Aurskog-Høland",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3228",
+   "navn": "Nes",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3230",
+   "navn": "Gjerdrum",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3232",
+   "navn": "Nittedal",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3234",
+   "navn": "Lunner",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3236",
+   "navn": "Jevnaker",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3238",
+   "navn": "Nannestad",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3240",
+   "navn": "Eidsvoll",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3242",
+   "navn": "Hurdal",
+   "fylke": "Akershus"
+  },
+  {
+   "nr": "3301",
+   "navn": "Drammen",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3303",
+   "navn": "Kongsberg",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3305",
+   "navn": "Ringerike",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3310",
+   "navn": "Hole",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3312",
+   "navn": "Lier",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3314",
+   "navn": "Øvre Eiker",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3316",
+   "navn": "Modum",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3318",
+   "navn": "Krødsherad",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3320",
+   "navn": "Flå",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3322",
+   "navn": "Nesbyen",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3324",
+   "navn": "Gol",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3326",
+   "navn": "Hemsedal",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3328",
+   "navn": "Ål",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3330",
+   "navn": "Hol",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3332",
+   "navn": "Sigdal",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3334",
+   "navn": "Flesberg",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3336",
+   "navn": "Rollag",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3338",
+   "navn": "Nore og Uvdal",
+   "fylke": "Buskerud"
+  },
+  {
+   "nr": "3401",
+   "navn": "Kongsvinger",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3403",
+   "navn": "Hamar",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3405",
+   "navn": "Lillehammer",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3407",
+   "navn": "Gjøvik",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3411",
+   "navn": "Ringsaker",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3412",
+   "navn": "Løten",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3413",
+   "navn": "Stange",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3414",
+   "navn": "Nord-Odal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3415",
+   "navn": "Sør-Odal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3416",
+   "navn": "Eidskog",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3417",
+   "navn": "Grue",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3418",
+   "navn": "Åsnes",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3419",
+   "navn": "Våler (Innlandet)",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3420",
+   "navn": "Elverum",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3421",
+   "navn": "Trysil",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3422",
+   "navn": "Åmot",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3423",
+   "navn": "Stor-Elvdal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3424",
+   "navn": "Rendalen",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3425",
+   "navn": "Engerdal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3426",
+   "navn": "Tolga",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3427",
+   "navn": "Tynset",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3428",
+   "navn": "Alvdal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3429",
+   "navn": "Folldal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3430",
+   "navn": "Os",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3431",
+   "navn": "Dovre",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3432",
+   "navn": "Lesja",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3433",
+   "navn": "Skjåk",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3434",
+   "navn": "Lom",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3435",
+   "navn": "Vågå",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3436",
+   "navn": "Nord-Fron",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3437",
+   "navn": "Sel",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3438",
+   "navn": "Sør-Fron",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3439",
+   "navn": "Ringebu",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3440",
+   "navn": "Øyer",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3441",
+   "navn": "Gausdal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3442",
+   "navn": "Østre Toten",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3443",
+   "navn": "Vestre Toten",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3446",
+   "navn": "Gran",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3447",
+   "navn": "Søndre Land",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3448",
+   "navn": "Nordre Land",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3449",
+   "navn": "Sør-Aurdal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3450",
+   "navn": "Etnedal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3451",
+   "navn": "Nord-Aurdal",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3452",
+   "navn": "Vestre Slidre",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3453",
+   "navn": "Øystre Slidre",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3454",
+   "navn": "Vang",
+   "fylke": "Innlandet"
+  },
+  {
+   "nr": "3901",
+   "navn": "Horten",
+   "fylke": "Vestfold"
+  },
+  {
+   "nr": "3903",
+   "navn": "Holmestrand",
+   "fylke": "Vestfold"
+  },
+  {
+   "nr": "3905",
+   "navn": "Tønsberg",
+   "fylke": "Vestfold"
+  },
+  {
+   "nr": "3907",
+   "navn": "Sandefjord",
+   "fylke": "Vestfold"
+  },
+  {
+   "nr": "3909",
+   "navn": "Larvik",
+   "fylke": "Vestfold"
+  },
+  {
+   "nr": "3911",
+   "navn": "Færder",
+   "fylke": "Vestfold"
+  },
+  {
+   "nr": "4001",
+   "navn": "Porsgrunn",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4003",
+   "navn": "Skien",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4005",
+   "navn": "Notodden",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4010",
+   "navn": "Siljan",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4012",
+   "navn": "Bamble",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4014",
+   "navn": "Kragerø",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4016",
+   "navn": "Drangedal",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4018",
+   "navn": "Nome",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4020",
+   "navn": "Midt-Telemark",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4022",
+   "navn": "Seljord",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4024",
+   "navn": "Hjartdal",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4026",
+   "navn": "Tinn",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4028",
+   "navn": "Kviteseid",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4030",
+   "navn": "Nissedal",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4032",
+   "navn": "Fyresdal",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4034",
+   "navn": "Tokke",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4036",
+   "navn": "Vinje",
+   "fylke": "Telemark"
+  },
+  {
+   "nr": "4201",
+   "navn": "Risør",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4202",
+   "navn": "Grimstad",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4203",
+   "navn": "Arendal",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4204",
+   "navn": "Kristiansand",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4205",
+   "navn": "Lindesnes",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4206",
+   "navn": "Farsund",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4207",
+   "navn": "Flekkefjord",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4211",
+   "navn": "Gjerstad",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4212",
+   "navn": "Vegårshei",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4213",
+   "navn": "Tvedestrand",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4214",
+   "navn": "Froland",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4215",
+   "navn": "Lillesand",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4216",
+   "navn": "Birkenes",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4217",
+   "navn": "Åmli",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4218",
+   "navn": "Iveland",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4219",
+   "navn": "Evje og Hornnes",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4220",
+   "navn": "Bygland",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4221",
+   "navn": "Valle",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4222",
+   "navn": "Bykle",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4223",
+   "navn": "Vennesla",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4224",
+   "navn": "Åseral",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4225",
+   "navn": "Lyngdal",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4226",
+   "navn": "Hægebostad",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4227",
+   "navn": "Kvinesdal",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4228",
+   "navn": "Sirdal",
+   "fylke": "Agder"
+  },
+  {
+   "nr": "4601",
+   "navn": "Bergen",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4602",
+   "navn": "Kinn",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4611",
+   "navn": "Etne",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4612",
+   "navn": "Sveio",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4613",
+   "navn": "Bømlo",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4614",
+   "navn": "Stord",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4615",
+   "navn": "Fitjar",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4616",
+   "navn": "Tysnes",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4617",
+   "navn": "Kvinnherad",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4618",
+   "navn": "Ullensvang",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4619",
+   "navn": "Eidfjord",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4620",
+   "navn": "Ulvik",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4621",
+   "navn": "Voss",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4622",
+   "navn": "Kvam",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4623",
+   "navn": "Samnanger",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4624",
+   "navn": "Bjørnafjorden",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4625",
+   "navn": "Austevoll",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4626",
+   "navn": "Øygarden",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4627",
+   "navn": "Askøy",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4628",
+   "navn": "Vaksdal",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4629",
+   "navn": "Modalen",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4630",
+   "navn": "Osterøy",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4631",
+   "navn": "Alver",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4632",
+   "navn": "Austrheim",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4633",
+   "navn": "Fedje",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4634",
+   "navn": "Masfjorden",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4635",
+   "navn": "Gulen",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4636",
+   "navn": "Solund",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4637",
+   "navn": "Hyllestad",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4638",
+   "navn": "Høyanger",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4639",
+   "navn": "Vik",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4640",
+   "navn": "Sogndal",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4641",
+   "navn": "Aurland",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4642",
+   "navn": "Lærdal",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4643",
+   "navn": "Årdal",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4644",
+   "navn": "Luster",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4645",
+   "navn": "Askvoll",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4646",
+   "navn": "Fjaler",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4647",
+   "navn": "Sunnfjord",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4648",
+   "navn": "Bremanger",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4649",
+   "navn": "Stad",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4650",
+   "navn": "Gloppen",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "4651",
+   "navn": "Stryn",
+   "fylke": "Vestland"
+  },
+  {
+   "nr": "5001",
+   "navn": "Trondheim - Tråante",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5006",
+   "navn": "Steinkjer - Stïentje",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5007",
+   "navn": "Namsos - Nåavmesjenjaelmie",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5014",
+   "navn": "Frøya",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5020",
+   "navn": "Osen",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5021",
+   "navn": "Oppdal",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5022",
+   "navn": "Rennebu",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5025",
+   "navn": "Røros - Rosse",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5026",
+   "navn": "Holtålen",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5027",
+   "navn": "Midtre Gauldal",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5028",
+   "navn": "Melhus",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5029",
+   "navn": "Skaun",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5031",
+   "navn": "Malvik",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5032",
+   "navn": "Selbu",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5033",
+   "navn": "Tydal",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5034",
+   "navn": "Meråker",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5035",
+   "navn": "Stjørdal",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5036",
+   "navn": "Frosta",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5037",
+   "navn": "Levanger - Levangke",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5038",
+   "navn": "Verdal",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5041",
+   "navn": "Snåase - Snåsa",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5042",
+   "navn": "Lierne",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5043",
+   "navn": "Raarvihke - Røyrvik",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5044",
+   "navn": "Namsskogan",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5045",
+   "navn": "Grong",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5046",
+   "navn": "Høylandet",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5047",
+   "navn": "Overhalla",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5049",
+   "navn": "Flatanger",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5052",
+   "navn": "Leka",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5053",
+   "navn": "Inderøy",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5054",
+   "navn": "Indre Fosen",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5055",
+   "navn": "Heim",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5056",
+   "navn": "Hitra",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5057",
+   "navn": "Ørland",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5058",
+   "navn": "Åfjord",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5059",
+   "navn": "Orkland",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5060",
+   "navn": "Nærøysund",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5061",
+   "navn": "Rindal",
+   "fylke": "Trøndelag - Trööndelage"
+  },
+  {
+   "nr": "5501",
+   "navn": "Tromsø",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5503",
+   "navn": "Harstad - Hárstták",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5510",
+   "navn": "Kvæfjord",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5512",
+   "navn": "Dielddanuorri - Tjeldsund",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5514",
+   "navn": "Ibestad",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5516",
+   "navn": "Gratangen - Rivtták",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5518",
+   "navn": "Loabák - Lavangen",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5520",
+   "navn": "Bardu",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5522",
+   "navn": "Salangen",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5524",
+   "navn": "Målselv",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5526",
+   "navn": "Sørreisa",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5528",
+   "navn": "Dyrøy",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5530",
+   "navn": "Senja",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5532",
+   "navn": "Balsfjord",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5534",
+   "navn": "Karlsøy",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5536",
+   "navn": "Lyngen - Ivgu - Yykeä",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5538",
+   "navn": "Storfjord - Omasvuotna - Omasvuono",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5540",
+   "navn": "Gáivuotna - Kåfjord - Kaivuono",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5542",
+   "navn": "Skjervøy",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5544",
+   "navn": "Nordreisa - Ráisa - Raisi",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5546",
+   "navn": "Kvænangen",
+   "fylke": "Troms - Romsa - Tromssa"
+  },
+  {
+   "nr": "5601",
+   "navn": "Alta",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5603",
+   "navn": "Hammerfest - Hámmerfeasta",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5605",
+   "navn": "Sør-Varanger",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5607",
+   "navn": "Vadsø",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5610",
+   "navn": "Kárášjohka - Karasjok",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5612",
+   "navn": "Guovdageaidnu - Kautokeino",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5614",
+   "navn": "Loppa",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5616",
+   "navn": "Hasvik",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5618",
+   "navn": "Måsøy",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5620",
+   "navn": "Nordkapp",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5622",
+   "navn": "Porsanger - Porsángu - Porsanki",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5624",
+   "navn": "Lebesby",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5626",
+   "navn": "Gamvik",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5628",
+   "navn": "Deatnu - Tana",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5630",
+   "navn": "Berlevåg",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5632",
+   "navn": "Båtsfjord",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5634",
+   "navn": "Vardø",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "5636",
+   "navn": "Unjárga - Nesseby",
+   "fylke": "Finnmark - Finnmárku - Finmarkku"
+  },
+  {
+   "nr": "9999",
+   "navn": "Uoppgitt",
+   "fylke": "Uoppgitt"
+  }
+ ]
+}

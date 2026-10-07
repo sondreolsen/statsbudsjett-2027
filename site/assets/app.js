@@ -167,7 +167,8 @@ function fylkeCard(name) {
   return el("div", { class: "special" },
     el("span", { class: "eyebrow" }, "Regjeringens fylkesoversikt"),
     el("h3", {}, f.title),
-    f.headings?.length ? el("ul", {}, f.headings.slice(0, 14).map((h) => el("li", {}, h))) : null,
+    f.headings?.length ? el("ul", {}, f.headings.slice(0, 8).map((h) => el("li", {}, h)),
+      f.headings.length > 8 ? el("li", {}, `+ ${f.headings.length - 8} temaer til`) : null) : null,
     el("a", { class: "link", href: f.url }, "Les hele oversikten på regjeringen.no", icon("external-link")));
 }
 
@@ -215,6 +216,23 @@ async function renderMore() {
   $("#more").hidden = current.shown >= current.results.length;
 }
 
+// Pagefind finner «noe» også for ord som ikke står i dokumentene (f.eks. «Hordfast» → «ho»).
+// Finnes et søkeord ikke eksakt, godtar vi treffene bare hvis et uthevet ord starter likt.
+async function verified(q, results) {
+  if (!q || q.includes('"') || !results.length) return results;
+  const words = q.split(/\s+/).map((w) => w.replace(/[.,:;!?()«»]/g, "")).filter((w) => w.length >= 4);
+  for (const w of words) {
+    const exact = await pagefind.search(`"${w}"`);
+    if (exact.results.length) continue;
+    const top = await Promise.all(results.slice(0, 5).map((r) => r.data()));
+    const stem = w.toLowerCase().slice(0, Math.min(5, w.length - 1));
+    const ok = top.some((d) => [...d.excerpt.matchAll(/<mark>(.*?)<\/mark>/g)]
+      .some((m) => m[1].toLowerCase().startsWith(stem)));
+    if (!ok) return [];
+  }
+  return results;
+}
+
 let searchId = 0;
 async function runSearch() {
   const id = ++searchId;
@@ -241,10 +259,12 @@ async function runSearch() {
   const t0 = performance.now();
   const res = await pagefind.search(q || null, { filters });
   if (id !== searchId || !res) return;
-  current = { results: res.results, shown: 0, id };
-  lastCounts = res.filters;
+  const results = await verified(q, res.results);
+  if (id !== searchId) return;
+  current = { results, shown: 0, id };
+  lastCounts = results.length ? res.filters : null;
   renderFilterUi();
-  const n = res.results.length;
+  const n = results.length;
   const ms = Math.round(performance.now() - t0);
   $("#result-count").textContent = n
     ? `${nf.format(n)} ${n === 1 ? "side" : "sider"} med treff${q ? ` for «${q}»` : ""}`

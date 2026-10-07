@@ -96,3 +96,15 @@ def read_json(path, default=None):
 
 def now_iso():
     return time.strftime("%Y-%m-%dT%H:%M:%S%z")
+
+
+def rmtree(path):
+    """shutil.rmtree som også fjerner skrivebeskyttede filer (git-objekter på Windows)."""
+    import shutil
+    import stat
+
+    def onexc(func, p, _exc):
+        os.chmod(p, stat.S_IWRITE)
+        func(p)
+    if Path(path).exists():
+        shutil.rmtree(path, onexc=onexc)
