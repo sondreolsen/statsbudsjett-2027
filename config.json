@@ -1,0 +1,25 @@
+{
+  "year": 2026,
+  "source_url": "https://www.regjeringen.no/no/statsbudsjett/2026/id3118616/",
+  "cache_dir": "~/.statsbudsjett-cache",
+  "expected_departments": [
+    "Arbeids- og inkluderingsdepartementet",
+    "Barne- og familiedepartementet",
+    "Digitaliserings- og forvaltningsdepartementet",
+    "Energidepartementet",
+    "Finansdepartementet",
+    "Forsvarsdepartementet",
+    "Helse- og omsorgsdepartementet",
+    "Justis- og beredskapsdepartementet",
+    "Klima- og miljødepartementet",
+    "Kommunal- og distriktsdepartementet",
+    "Kultur- og likestillingsdepartementet",
+    "Kunnskapsdepartementet",
+    "Landbruks- og matdepartementet",
+    "Nærings- og fiskeridepartementet",
+    "Samferdselsdepartementet",
+    "Utenriksdepartementet"
+  ],
+  "extra_document_pages": [],
+  "_veiledning": "Bytt år: endre year og source_url (samlesiden på regjeringen.no) og kjør python pipeline/build.py. extra_document_pages: dokumentsider på regjeringen.no som ikke er lenket fra samlesiden og som du vil ta med."
+}

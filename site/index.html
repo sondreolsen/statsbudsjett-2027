@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Statsbudsjettet {{YEAR}}: søk i budsjettdokumentene</title>
+<meta name="description" content="Uoffisiell søkeside for statsbudsjettet {{YEAR}}. Søk i Prop. 1 S, Gul bok, Nasjonalbudsjettet og regjeringens fylkesoversikter, med lenke til riktig side i originaldokumentet.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F7F5F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12141A" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="assets/fonts/inter-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/fraunces-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v={{BUILD}}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%233A3F9E'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' font-weight='700' text-anchor='middle' fill='%23F7F5F0'%3ESb%3C/text%3E%3C/svg%3E">
+<script>
+  // Sett tema før første maling for å unngå blink
+  try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+{{ICONS}}
+<a class="skip" href="#sok">Hopp til søk</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <span class="brand">Statsbudsjettet <span class="tnum">{{YEAR}}</span></span>
+    <button class="icon-btn" id="theme-toggle" type="button" aria-label="Bytt mellom lys og mørk modus">
+      <svg class="i i-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+      <svg class="i i-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap" aria-labelledby="tittel">
+    <h1 id="tittel">Statsbudsjettet <span class="tnum">{{YEAR}}</span></h1>
+    <p class="lede">Søk i budsjettdokumentene og se hovedtallene, med lenke til riktig side i originalen.</p>
+    <p class="dateline">Lagt frem <time datetime="{{FREMLAGT_ISO}}">{{FREMLAGT}}</time></p>
+  </section>
+
+  <div class="search-band" id="search-band">
+    <div class="wrap">
+      <form class="search" role="search" id="sok" action="" onsubmit="return false">
+        <label for="q" class="sr-only">Søk i statsbudsjettet</label>
+        <svg class="i search-icon" aria-hidden="true"><use href="#i-search"/></svg>
+        <input id="q" name="q" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Søk i budsjettdokumentene" data-long-placeholder="Søk, f.eks. «E39», «formuesskatt» eller «kap. 1320»" enterkeyhint="search">
+        <button type="button" class="icon-btn clear" id="clear" aria-label="Tøm søket" hidden>
+          <svg class="i" aria-hidden="true"><use href="#i-x"/></svg>
+        </button>
+        <button type="button" class="filter-btn" id="open-filters" aria-haspopup="dialog" aria-controls="filter-sheet">
+          <svg class="i" aria-hidden="true"><use href="#i-sliders-horizontal"/></svg>
+          <span>Filtre</span><span class="badge tnum" id="filter-count" hidden></span>
+        </button>
+      </form>
+      <div class="chips-bar" id="chips-bar" aria-label="Filtre"></div>
+    </div>
+  </div>
+
+  <div class="wrap content">
+    <section id="results-section" hidden aria-labelledby="results-heading">
+      <h2 id="results-heading" class="sr-only">Søkeresultater</h2>
+      <div id="notices"></div>
+      <div id="special"></div>
+      <p class="result-count" id="result-count" aria-live="polite"></p>
+      <ol class="results" id="results"></ol>
+      <button class="more-btn" id="more" type="button" hidden>Vis flere treff</button>
+    </section>
+
+    <section id="figures-section" aria-labelledby="figures-heading">
+      <div class="section-head">
+        <h2 id="figures-heading">Hovedtall</h2>
+        <p class="section-note">Fra Nasjonalbudsjettet og Gul bok. Klikk kilden for å se tallet i dokumentet.</p>
+      </div>
+      <div class="figures" id="figures">{{FIGURES}}</div>
+
+      <div class="section-head docs-head">
+        <h2>Dokumentene</h2>
+        <p class="section-note"><span class="tnum">{{DOC_COUNT}}</span> dokumenter og <span class="tnum">{{PAGE_COUNT}}</span> sider er søkbare.</p>
+      </div>
+      <ul class="doc-list">{{DOCS}}</ul>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>Uoffisiell side.</strong> Ikke laget av eller tilknyttet regjeringen. Alle dokumenter og tall er hentet fra
+      <a href="{{SOURCE_URL}}">regjeringen.no</a>, og hvert treff lenker til originalen.</p>
+    <p>Sist oppdatert <time datetime="{{BUILT_ISO}}">{{BUILT}}</time>.
+      Fylkesfilteret bygger på stedsnavn i teksten og er ingen offisiell fylkesfordeling.</p>
+  </div>
+</footer>
+
+<dialog class="sheet" id="filter-sheet" aria-labelledby="sheet-title">
+  <div class="sheet-inner">
+    <div class="sheet-head">
+      <h2 id="sheet-title">Filtre</h2>
+      <button class="icon-btn" type="button" id="close-filters" aria-label="Lukk filtre">
+        <svg class="i" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+    <div class="sheet-body" id="sheet-body"></div>
+    <div class="sheet-foot">
+      <button class="text-btn" type="button" id="reset-filters">Nullstill</button>
+      <button class="primary-btn" type="button" id="apply-filters">Vis treff</button>
+    </div>
+  </div>
+</dialog>
+
+<template id="skeleton">
+  <li class="result skeleton" aria-hidden="true">
+    <span class="sk sk-title"></span><span class="sk sk-meta"></span>
+    <span class="sk sk-line"></span><span class="sk sk-line"></span><span class="sk sk-line short"></span>
+  </li>
+</template>
+
+<script>window.SITE = {{SITE_JSON}};</script>
+<script type="module" src="assets/app.js?v={{BUILD}}"></script>
+</body>
+</html>
